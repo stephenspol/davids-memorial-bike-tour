@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Registration
+  link: /registration.html
+- name: Photos
+  link: /photos.html
+- name: Scholarship
+  link: /scholarship.html
