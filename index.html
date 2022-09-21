@@ -2,6 +2,38 @@
 layout: default
 title: David Flowers Memorial Bike Tour | Home
 ---
-<div class="fluid-container">
-	<p class="text-center">Home Page</p>
+<div class="row justify-content-center">
+	<div class="col-3">
+		<img class="border border-3 rounded border-secondary w-100" alt="{{ site.data.images.homeImg.alt }}" 
+		src="{{ site.data.images.homeImg.src }}"/>
+	</div>
+	<div class="col-5">
+		<section>
+			<h2 class="text-danger">In Memory of David Flowers (1963-2018)</h2>
+			<p>
+				We hold this event every year to remember the life of David Flowers. He was in no way a professional bike rider 
+				(in fact he often rode in his jean shorts!) but he enjoyed riding and connecting with his family and church members.
+			</p>
+			<p>This year we will be raising money to start a scholarship in David's name.</p>
+			<p>
+				Please join us for the bike ride if you are able! Feel free to bike, walk, or run. 
+				Check out the <a href="/registration.html">Registration</a> page to register, pay, and reserve your shirt size. 
+			</p>
+		</section>
+	</div>
+</div>
+<div class="d-flex justify-content-center">
+	<section>
+		<span>General donations for the David Flowers Memorial Scholarship can be made here: </span>
+		<form class="d-inline" action="https://www.google.com/url?q=https%3A%2F%2Fwww.paypal.com%2Fdonate%3Fhosted_button_id%3D73F9G97JM55UE&sa=D&sntz=1&usg=AOvVaw2Z5InRJ7rLv3UT2Wy5aqkR" method="post" target="_top">
+			<!-- <input type="hidden" name="business" value="donations@kcparkfriends.org"> -->
+			<input type="hidden" name="no_recurring" value="0">
+			<input type="hidden" name="item_name" value="David Flowers Memorial Scholarship">
+			<input type="hidden" name="item_number" value="General Donation">
+			<input type="hidden" name="currency_code" value="USD">
+			
+			<input type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate">
+			<img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+		</form>
+	</section>
 </div>
